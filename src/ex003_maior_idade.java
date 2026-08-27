@@ -10,8 +10,8 @@ public class ex003_maior_idade {
     }
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.print("Digite sua idade: ");
+        System.out.println("Digite sua idade: ");
         int idade = input.nextInt();
-        System.out.print(maior_idade(idade));
+        System.out.println(maior_idade(idade));
     }
 }
